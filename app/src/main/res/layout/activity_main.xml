@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#F6EEF2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/rl1"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/buttonShowCustomDialog"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:padding="15dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/user"></ImageView>
+
+            <ImageView
+                android:id="@+id/rateMe"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:padding="15dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/rating"
+                android:layout_alignParentRight="true"/>
+
+            <ImageView
+                android:id="@+id/share"
+                android:layout_toLeftOf="@id/rateMe"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="15dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/share" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/ttxt"
+            android:layout_below="@id/rl1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Things to do when you are Bored..."
+            android:textColor="#423c3f"
+            android:textStyle="bold"
+            android:textSize="35dp"/>
+        <ScrollView
+            android:layout_below="@id/ttxt"
+            android:id="@+id/fullscreen_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#F6EEF2"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F6EEF2"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#F6EEF2"
+                        >
+
+                        <LinearLayout
+                            android:id="@+id/clkone"
+                            android:layout_marginTop="30dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="30dp"
+                            android:background="@drawable/shape"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="90dp"
+                                android:textColor="#E2CCD6"
+                                android:textStyle="bold"
+                                android:textSize="21sp"
+                                android:text="Outdoor Activities to do when you are Bored "/>
+
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="98dp"
+                        android:layout_height="98dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/bb"/>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F6EEF2"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#F6EEF2"
+                        >
+
+                        <LinearLayout
+                            android:id="@+id/clktwo"
+                            android:layout_marginTop="30dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="30dp"
+                            android:background="@drawable/shape"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="90dp"
+                                android:textColor="#E2CCD6"
+                                android:textSize="21sp"
+                                android:textStyle="bold"
+                                android:text="25 Relaxing things to do when Bored "/>
+
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="98dp"
+                        android:layout_height="98dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/bb"/>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F6EEF2"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#F6EEF2"
+                        >
+
+                        <LinearLayout
+                            android:id="@+id/clkthree"
+                            android:layout_marginTop="30dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="30dp"
+                            android:background="@drawable/shape"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="90dp"
+                                android:textColor="#E2CCD6"
+                                android:textStyle="bold"
+                                android:textSize="21sp"
+                                android:text="Organizing activities to Pass Time "/>
+
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="98dp"
+                        android:layout_height="98dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/bb"/>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F6EEF2"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#F6EEF2"
+                        >
+
+                        <LinearLayout
+                            android:id="@+id/clkfour"
+                            android:layout_marginTop="30dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="30dp"
+                            android:background="@drawable/shape"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="90dp"
+                                android:textColor="#E2CCD6"
+                                android:textStyle="bold"
+                                android:textSize="21sp"
+                                android:text="25 Adventurous things to do when Bored "/>
+
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="98dp"
+                        android:layout_height="98dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/bb"/>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F6EEF2"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#F6EEF2"
+                        >
+
+                        <LinearLayout
+                            android:id="@+id/clkfive"
+                            android:layout_marginTop="30dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="30dp"
+                            android:background="@drawable/shape"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="90dp"
+                                android:textColor="#E2CCD6"
+                                android:textStyle="bold"
+                                android:textSize="21sp"
+                                android:text="Indoor Stress-relif Activities "/>
+
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="98dp"
+                        android:layout_height="98dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/bb"/>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F6EEF2"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#F6EEF2"
+                        >
+
+                        <LinearLayout
+                            android:id="@+id/clksix"
+                            android:layout_marginTop="30dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="30dp"
+                            android:background="@drawable/shape"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="90dp"
+                                android:textColor="#E2CCD6"
+                                android:textStyle="bold"
+                                android:textSize="21sp"
+                                android:text="25 Productive things to do when Bored "/>
+
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="98dp"
+                        android:layout_height="98dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/bb"/>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F6EEF2"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#F6EEF2"
+                        >
+
+                        <LinearLayout
+                            android:id="@+id/clkseven"
+                            android:layout_marginTop="30dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="30dp"
+                            android:background="@drawable/shape"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="90dp"
+                                android:textColor="#E2CCD6"
+                                android:textStyle="bold"
+                                android:textSize="21sp"
+                                android:text="Creative things to do Indoor "/>
+
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="98dp"
+                        android:layout_height="98dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/bb"/>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F6EEF2"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#F6EEF2"
+                        >
+
+                        <LinearLayout
+                            android:id="@+id/clkeight"
+                            android:layout_marginTop="30dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="30dp"
+                            android:background="@drawable/shape"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="90dp"
+                                android:textColor="#E2CCD6"
+                                android:textStyle="bold"
+                                android:textSize="21sp"
+                                android:text="25 Entertaining things to do when Bored "/>
+
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="98dp"
+                        android:layout_height="98dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/bb"/>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F6EEF2"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#F6EEF2"
+                        >
+
+                        <LinearLayout
+                            android:id="@+id/clknine"
+                            android:layout_marginTop="30dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="30dp"
+                            android:background="@drawable/shape"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="90dp"
+                                android:textColor="#E2CCD6"
+                                android:textStyle="bold"
+                                android:textSize="21sp"
+                                android:text="Fun Activities to do when Stuck Inside at Home "/>
+
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="98dp"
+                        android:layout_height="98dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/bb"/>
+
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+    </RelativeLayout>
+
+</LinearLayout>
